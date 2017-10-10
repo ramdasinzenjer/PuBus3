@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbus_bg" >
+
+    <TextView
+        android:id="@+id/mytxtbsnummm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="42dp"
+        android:text="Select Bus Number:"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/mspinner_busnum"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/mytxtbsnummm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <EditText
+        android:id="@+id/edit_lc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mspinner_busnum"
+        android:layout_below="@+id/mspinner_busnum"
+        android:layout_marginTop="36dp"
+        android:hint="Location"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/img_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/edit_lc"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/edit_lc"
+        android:src="@android:drawable/ic_menu_compass" />
+
+    <Button
+        android:id="@+id/mbt_uploc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_lc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:padding="10dp"
+        android:text="Update Location"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

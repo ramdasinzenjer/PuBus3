@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuBus</string>  
+    
+    <string-array name="districts">
+        <item>Thiruvananthapuram</item>
+        <item>Kollam</item>
+        <item>Pathanamthitta</item>
+        <item>Alappuzha</item>
+        <item>Kottayam</item>
+        <item>Ernakulam</item>
+        <item>Idukki</item>
+        <item>Thrissur</item>
+        <item>Palakkad</item>
+        <item>Wayanad</item>
+        <item>Malappuram</item>
+        <item>Kozhikkode</item>
+        <item>Kannur</item>
+        <item>Kasargod</item>
+	</string-array>
+
+</resources>

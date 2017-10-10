@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/mbus_bg">
+
+    <ListView
+        android:id="@+id/mlist_bstopss"
+        android:layout_width="280dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp" >
+    </ListView>
+
+    <Spinner
+        android:id="@+id/mspin_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mlist_bstopss"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/mlist_bstopss"
+        android:layout_marginTop="35dp" />
+
+    <EditText
+        android:id="@+id/et_bstopps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mlist_bstopss"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Bus Stop"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_bstimeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_bstopps"
+        android:layout_below="@+id/et_bstopps"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Time"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_upbstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_bstimeee"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="Update Stops"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

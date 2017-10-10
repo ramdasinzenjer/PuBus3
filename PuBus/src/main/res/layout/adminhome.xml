@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mbus_bg" >
+
+    <Button
+        android:id="@+id/mbt_addbusdetils"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="70dp"
+        android:alpha=".75"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="Add Bus Details"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_addnotif"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBaseline="@+id/mbt_addbusdetils"
+        android:layout_alignBottom="@+id/mbt_addbusdetils"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:alpha=".75"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="Add Notification"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_addbusloc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/mbt_addbusdetils"
+        android:layout_centerVertical="true"
+        android:alpha=".75"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="Add Bus Location"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_approveuser"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/mbt_addbusloc"
+        android:layout_below="@+id/mbt_addbusloc"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="46dp"
+        android:alpha=".75"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="User Approval"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_addbusstops"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBaseline="@+id/mbt_addbusloc"
+        android:layout_alignBottom="@+id/mbt_addbusloc"
+        android:layout_alignLeft="@+id/mbt_addnotif"
+        android:alpha=".75"
+        android:background="@color/blue"
+        android:padding="10dp"
+        android:text="Add Bus Stops"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>

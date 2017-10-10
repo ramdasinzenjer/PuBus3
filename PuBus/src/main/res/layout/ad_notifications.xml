@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/mbus_bg">
+
+    <ListView
+        android:id="@+id/mlist_adnoti"
+        android:layout_width="260dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/mytxtnoti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/mytxtnoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mlist_adnoti"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="34dp"
+        android:text="Notifications :"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_adnoti"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/mlist_adnoti"
+        android:layout_alignRight="@+id/mlist_adnoti"
+        android:layout_below="@+id/mlist_adnoti"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Enter Notification"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mbt_upnoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_adnoti"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Update Notification"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
